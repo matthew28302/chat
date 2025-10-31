@@ -1,12 +1,12 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "installCommand": "npm install",
+  "installCommand": "npm install --legacy-peer-deps",
   "framework": "nextjs",
   "regions": ["sin1"],
   "env": {
-    "NEXT_PUBLIC_APP_URL": "https://your-app.vercel.app",
-    "NEXT_PRIVATE_TEST_NEXT_VERSION": "15.0.3"
+    "NEXT_PRIVATE_TEST_NEXT_VERSION": "15.0.3",
+    "NEXT_PUBLIC_APP_URL": "https://your-app.vercel.app"
   }
 }
 
